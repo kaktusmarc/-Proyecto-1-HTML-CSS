@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> Listas </title>
+</head>
+<body>
+<h2> Lista ordenada </h2>
+    <ol>
+    <li>Comprar huevos</li>
+    <li>Calentar la sartén y echarle un chorrito de aceite</li>
+    <li>Abrir el huevo en la plancha evitando que la cascara caiga</li>
+    <li>Ir echando el aceite sobre el exterior de la clara</li>
+    <li>Retirar y servir el huevo frito</li>
+    </ol>
+<h2> Lista no ordenada </h2>
+    <ul>
+    <li>Huevos</li>
+    <li>Aceite</li>
+    <li>Sal</li>
+    </ul>
+<h2>Lista descriptiva</h2>
+
+<dl>
+    <dt>&lt;b&gt;:</dt>
+    <dd>Poner en negrita palabras sueltas, frases o párrafos.</dd>
+    <dt>&lt;i&gt;:</dt>
+    <dd>Poner en cursiva palabras sueltas, frases o párrafos.</dd>
+    <dt>&lt;small&gt;:</dt>
+    <dd>Hace el tamaño del texto una talla más pequeña.</dd>
+    <dt>&lt;big&gt;:</dt>
+    <dd>Muestra el texto marcado con un tamaño de fuente más grande.</dd>
+    <dt>&lt;sup&gt;:</dt>
+    <dd>El carácter seleccionado será un superíndice.</dd>
+    <dt>&lt;sub&gt;:</dt>
+    <dd>Puedes escribir caracteres en subíndices, como el 2 de H2O.</dd>
+    <dt>&lt;del&gt;:</dt>
+    <dd>Marca las partes de un texto o documento que han sido suprimidas o sustituidas.</dd>
+    <dt>&lt;u&gt;:</dt>
+    <dd>El fragmento seleccionado estará subrayado.</dd>
+    <dt>&lt;mark&gt;:</dt>
+    <dd>Representa un texto marcado o resaltado como referencia o anotación.</dd>
+    <dt>&lt;center&gt;:</dt>
+    <dd>Centra el objeto con respecto a los márgenes actuales.</dd>
+</dl>
+
+</body>
+</html>

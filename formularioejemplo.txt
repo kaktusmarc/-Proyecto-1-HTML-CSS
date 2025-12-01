@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulari</title>
+</head>
+<body>
+<style>
+    .textarea {
+    resize:none
+    }
+    ::placeholder {
+    color: red;
+    }
+</style>
+<hr>
+<p> <mark>Exer 5</mark> Es tracta de fer el següent formulari:</p>
+<hr>
+<br>
+<h1>Formulari d'inscripció</h1>
+<p> Els camps marcats amb (*) són obligatoris</p>
+<form action="http://daw.inspedralbes.cat/form/action.php" method="get">
+
+    <fieldset>
+        <legend>Dades personals</legend>
+        <br/>
+        <label>(*) Nom i Cognoms: <input type='text'name='nombre' placeholder="Escriu el teu nom" required> </label><br/>
+        <br/>
+        <label>Data naixement: <input type="date"> </label> <br/>
+        <br/>
+            <label>Email: <input type='text' name='email'> </label><br/>
+        <br/>
+        Gènere:<br>
+        <label> <input type='radio' name='sexe' value='Femení'> Femení </label></br>
+            <label> <input type='radio' name='sexe' value='Masculí'> Masculí</label></br>
+                <label> <input type='radio' name='sexe' value='Un altre'> Un altre</label></br>
+        </br>
+        <label>Població: <select name='poblacio' >
+            <option value='bcn'>Barcelona</option>
+            <option value='tarr'>Tarragona</option>
+            <option value='gir'>Girona</option>
+            <option value='llei'>Lleida</option>
+        </select></label>
+    </fieldset>
+        <br/>
+    <label><input type='checkbox' name='comer' value='come'> Vindràs a dinar?</label></br>
+        <br/>
+        Provincies on t'agradaria viure:</br>
+    <label><select name="provincias" multiple>
+            <option value='lleida'>Lleida</option>
+            <option value='girona'>Girona</option>
+            <option value='tarragona'>Tarragona</option>
+            <option value='barcelona'>Barcelona</option>
+        </select></label>
+        </br>
+    </br>
+    <label>Observacions </label> <br/>
+    <textarea class="textarea"  name="observacions" rows="8" cols="60">Pots posar aqui la teva observació. Fes que aquest quadre no es pugui redimensionar!</textarea> <br/>
+    <input type="button" value="Aquest botó no fa res"> </br>
+    <input type="reset" value="Aquest botó restableix el formulari"></br>
+    <input type="submit" value="Aquest botó envia el formulari a l'action del form"></br>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML</title>
+</head>
+<body>
+<font style="font-family:Verdana">
+<p><h1><b><mark>HTML</mark></b></h1></p>
+<p><mark>HTML</mark> stands for HyperText Markup Language, which can be translated as
+branding language or markup language
+hypertext.</p>
+<p>The <mark>HTML</mark> language is used to create web pages. It is very easy to see
+the <mark>HTML</mark> code of a web page, the exact option changes from one browser to
+another and can also change from one version to another of the same
+browser, but they usually have a similar number.</p>
+<p><mark>HTML</mark> is made up of tags that are written between the less than and
+greater than symbols.</p>
+<p><h2>History of <mark>HTML</mark></h2></p>
+<p>The beginnings of the <mark>HTML</mark> language go back to the year 1990, when
+<b><font color=red>Tim Berners-Lee</font color=red></b> created the first web page.</p>
+<p><h2>Versions of <mark>HTML</mark></h2></p>
+<p><font color=red><b>Tim Berners-Lee</font color=red></b> defined the first version of <mark>HTML</mark> in 1991.</p>
+<p>Currently, the latest version of <mark>HTML</mark> is <mark>HTML</mark>5.</p>
+
+
+</font>
+</body>
+</html>

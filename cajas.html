@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Apuntes Lenguaje de Marcas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="style.css">
+    <link rel="icon" href="icono.ico" >
+    <style>
+        .boton2 {
+      display: none;
+      flex-wrap: wrap; 
+      flex-direction: column;
+      align-items: center; 
+      color: white;
+      margin: 10px 10px ;
+      text-decoration: solid;
+      cursor: url('cursornegro.png')30 30, auto;
+
+    }
+    .boton2 a {
+      display: flex;
+      color: white;
+      padding: 10px;
+      font-size: 14px;
+      cursor: pointer;
+      text-decoration: none;
+      margin: 5px;
+      border-top: solid black;
+      border-width: solid black;
+      border: 8px;
+      width: 100%; 
+      border-radius: 8px;
+      transition: background-color 0.3s;
+      border-radius: 70px;
+      cursor: url('cursornegro.png')30 30, auto;
+
+    }
+    
+    .boton1:hover .boton2 {
+      display: flex;
+    }
+
+
+ .boton1 {
+      display: block;
+      text-align: center;
+      width: 30%;
+      border: none; 
+      padding: 25px; 
+      background-color: #4417e6; 
+      color: white;
+      cursor: pointer; 
+      font-size: 18px; 
+      margin: 10px 0px 10px 50px; 
+      border-radius: 8px; 
+      transition: background-color 0.3s;
+      text-decoration: none; 
+      float: left;
+      border-radius: 70px;
+      cursor: url('cursornegro.png')30 30, auto;
+
+    }
+    .codigo-container {
+        position: fixed;
+    top: 50%;
+    right: 10%; 
+    transform: translateY(-50%);
+    width: 25%;
+    height: 50%;
+    background-color: white;
+    border: 1px solid #7b0ae6;
+    
+        }
+
+        .codigo-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            background-color: white;
+            cursor: url('cursornegro.png')30 30, auto;
+        }
+      </style>
+    
+</head>
+<body>
+    
+    <section>
+        <header>
+            <a class="logo_nike" href="index.html">
+                <img src="logo.png" >
+            </a>
+            <div class="menu-toggle">
+                <img src="menu.png">
+            </div>
+            <nav class="menu-abierto">
+                <ul>
+                    <li><a href="html.html">HTML</a></li>
+                    <li><a href="css.html">CSS</a></li>
+                    <li><a href="sneakers.html">SNEAKERS ROOM</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="contenedor">
+            
+            <div class="texto">
+                
+                <h2>Posicionamiento y cajas</h2>
+                <br>
+                <p><strong>Box Model:</strong></p>
+    <ul>
+        <li>Cada elemento HTML es tratado como una caja rectangular.</li>
+        <li>El box model incluye margen, borde, relleno y contenido.</li>
+    </ul>
+    <p><strong>Posicionamiento:</strong></p>
+    <ul>
+        <li><em>Relative:</em> Desplaza un elemento desde su posición original.</li>
+        <li><em>Absolute:</em> Coloca un elemento en relación con su primer ancestro posicionado.</li>
+        <li><em>Fixed:</em> Fija un elemento en una posición con respecto a la ventana del navegador.</li>
+        <li><em>Static:</em> Es la posición predeterminada, sigue el flujo normal del documento.</li>
+    </ul>
+    <p><strong>Display Property:</strong></p>
+    <ul>
+        <li>Define el tipo de caja que será un elemento (bloque, en línea, en línea-block, etc.).</li>
+        <li>Ejemplos: <em>block, inline, inline-block, flex, grid.</em></li>
+    </ul>
+                <br>               
+            </div>
+            <div class="codigo-container">
+                <iframe src="cajasejemplo.txt" width="" height="555" frameborder="50"></iframe>
+            </div>
+            <div class="boton1">
+                <button2>CONTENIDOS</button2>
+                <a href="introducion.html" class="boton2">Introducción</a>
+                <a href="selecto.html"class="boton2">Selectores y Propiedades</a>
+                <a href="cajas.html"class="boton2">Posicionamiento y cajas</a>
+            </div> 
+           
+
+        </div>
+    </section>
+</body>
+</html>

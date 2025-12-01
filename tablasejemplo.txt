@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+	table { 
+border: black 2px solid black;
+border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+	<hr>
+	<p><mark>Exer3</mark> Es tracta de fer la seguent taula:</p>
+	<hr>
+<br>
+		<table border="black">
+		<tr> 
+			<td></td> <td colspan="3"; align="center"><b> <img src="mp4_1 (1).png"/> </b></td> <td colspan="2"; align="center"><b> <img src="mp4_2.png"/> </b></td>
+		</tr>
+		<tr> 
+			<td bgcolor="#5D6D7E"> <b>Capacitat</b></td> <td bgcolor="yellow"> 2GB </td> <td bgcolor="yellow" colspan="1">4GB</td> <td bgcolor="yellow"> 8GB </td> <td background color: #FFFF00> 32GB </td> <td> 2GB </td>
+		</tr>
+		<tr> 
+			<td bgcolor="#5D6D7E" ><b>Colors</b> </td> <td bgcolor="yellow" ><b> Blanc </b></td> <td bgcolor="yellow" ><ul> <li> Negre </li> <li> Rosa </li> <li> Daurat </li></ul></td> <td bgcolor="yellow" ><b> Negre </b></td> <td colspan="2"><ul> <li> Negre </li> <li> Blanc </li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor="#5D6D7E" ><b>Pantalla</b> </td> <td bgcolor="yellow" colspan="3"; align="center"><b> 3 polzades </b></td> <td colspan="2"> <b> 7 polzades </b> </td>  
+		</tr
+		<tr>
+			<td bgcolor="#5D6D7E" rowspan ="2" ><b>	Temps de cárrega</b> </td> <td bgcolor="yellow" colspan="3"; rowspan ="2" align="center"><b> 1 hora </b></td> <td colspan="2"> <b> 5 hores </b> </td>  
+		</tr>
+		<tr>
+			 <td  colspan="3"> <b>30 minuts per a 75% </b></td> 	
+		</tr>
+
+		</table>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Apuntes Lenguaje de Marcas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="style.css"> 
+    <link rel="icon" href="icono.ico" >
+    <style>
+        .boton2 {
+      display: none;
+      flex-wrap: wrap; 
+      flex-direction: column;
+      align-items: center; 
+      color: white;
+      margin: 10px 10px ;
+      text-decoration: solid;
+      cursor: url('cursornegro.png')30 30, auto;
+
+    }
+    .boton2 a {
+      display: flex;
+      color: white;
+      padding: 10px;
+      font-size: 14px;
+      cursor: pointer;
+      text-decoration: none;
+      margin: 5px;
+      border-top: solid black;
+      border-width: solid black;
+      border: 8px;
+      width: 100%; 
+      border-radius: 8px;
+      transition: background-color 0.3s;
+      border-radius: 70px;
+      cursor: url('cursornegro.png')30 30, auto;
+
+    }
+    
+    .boton1:hover .boton2 {
+      display: flex;
+      
+    }
+
+
+ .boton1 {
+      display: block;
+      text-align: center;
+      width: 30%;
+      border: none; 
+      padding: 25px; 
+      background-color: #4417e6; 
+      color: white;
+      cursor: pointer; 
+      font-size: 18px; 
+      margin: 10px 0px 10px 50px; 
+      border-radius: 8px; 
+      transition: background-color 0.3s;
+      text-decoration: none; 
+      float: left;
+      border-radius: 70px;
+      cursor: url('cursornegro.png')30 30, auto;
+
+    }
+    .ejemplos_codigos {
+        position: fixed;
+    top: 50%;
+    right: 10%; 
+    transform: translateY(-50%);
+    width: 25%;
+    height: 50%;
+    background-color: white;
+    border: 1px solid #7b0ae6;
+        }
+
+        .ejemplos_codigos iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            background-color: white;
+        }
+      </style>
+</head>
+<body>
+    
+    <section>
+        <header>
+            <a class="logo_nike" href="index.html">
+                <img src="logo.png" >
+            </a>
+            <div class="menu-toggle">
+                <img src="menu.png">
+            </div>
+            <nav class="menu-abierto">
+                <ul>
+                    <li><a href="html.html">HTML</a></li>
+                    <li><a href="css.html">CSS</a></li>
+                    <li><a href="sneakers.html">SNEAKERS ROOM</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="contenedor">
+            
+            <div class="texto">
+                <h2>Estilos de texto</h2>
+                <br>
+                <p>La siguiente lista presenta algunas etiquetas HTML básicas:</p>
+
+    <ul>
+        <li>&lt;p&gt;: Define un párrafo de texto.</li>
+        <li>&lt;h1&gt;, &lt;h2&gt;, ..., &lt;h6&gt;: Definen encabezados de diferentes niveles.</li>
+        <li>&lt;b&gt;: Aplica negrita al texto.</li>
+        <li>&lt;big&gt;: Incrementa el tamaño del texto.</li>
+        <li>&lt;super&gt;: Renderiza el texto como superíndice.</li>
+        <li>&lt;mark&gt;: Resalta el texto con un color de fondo, similar al marcado de texto en amarillo.</li>
+        <li>&lt;u&gt; (Subrayado): Subraya el texto.</li>
+        <li>&lt;div&gt; (División): Define una sección o contenedor genérico que se utiliza para organizar y estructurar el contenido.</li>
+        <li>&lt;span&gt;: Similar a &lt;div&gt;, pero utilizado para aplicar estilos o manipulaciones específicas a porciones más pequeñas de texto.</li>
+        <li>&lt;br&gt; (Salto de línea): Crea un salto de línea dentro del texto.</li>
+        <li>&lt;hr&gt; (Línea horizontal): Inserta una línea horizontal para separar secciones.</li>
+    </ul>
+                <br>
+                    
+                
+            </div>
+            <div class="ejemplos_codigos">
+                <iframe src="estiloejemplo.txt" width="" height="555" frameborder="50"></iframe>
+            </div>
+            <div class="boton1">
+                <button2>CONTENIDOS</button2>
+                <a href="estructura.html" class="boton2">Estructura</a>
+                <a href="estilo.html"class="boton2">Estilos de Texto</a>
+                <a href="listas.html"class="boton2">Listas</a>
+                <a href="tablas.html"class="boton2">Tablas</a>
+                <a href="forms.html"class="boton2">Formularios</a>
+                <a href="media.html"class="boton2">Multimedia</a>
+                <a href="etiquetassemanticas.html"class="boton2">Etiquetas Semánticas</a>
+            </div> 
+
+        </div>
+    </section>
+</body>
+</html>
